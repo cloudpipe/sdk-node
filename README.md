@@ -4,33 +4,26 @@
 
 ```javascript
 var cloudpipe = require('cloudpipe');
-```
 
-#### Convert a regular function into a cloud function
+var pipe = cloudpipe.init({
+  url: 'http://192.168.59.103:8000/api/v1',
+  key: 'admin',
+  secret: '12345'
+});
 
-```javascript
 var add = function(x, y, callback) {
   callback(null, x + y);
 };
 
-var cloudAdd = cloudpipe.create(add);
+var cloudAdd = pipe.createFunction(add);
 cloudAdd(2, 4, function(err, result) {
   // err == null
   // result == 6
 });
 ```
 
-#### Convert a function with free variable references into a cloud function
+## Restrictions
 
-```javascript
-var step = 3;
-var increment = function(x, callback) {
-    callback(null, x + step);
-};
-
-var cloudIncrement = cloudpipe.create(increment, { freeVariables: { step: step } });
-cloudIncrement(14, function(err, result) {
-  // err == null
-  // result == 17
-});
-```
+* No globals (free variables)
+* No dependencies (yet!)
+* Function should take callback `f(err, result)` as its final argument

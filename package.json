@@ -16,6 +16,8 @@
   "main": "lib/index.js",
   "dependencies": {
     "node-serialize": "0.0.x",
+    "btoa": "1.1.x",
+    "atob": "1.1.x",
     "request": "2.x"
   },
   "engines": {

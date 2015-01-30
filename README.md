@@ -1,6 +1,5 @@
-*WARNING: This API and its implementation are in alpha.*
-
 ## API
+*WARNING: This API and its implementation are in alpha.*
 
 ```javascript
 var cloudpipe = require('cloudpipe');

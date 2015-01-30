@@ -31,3 +31,7 @@ cloudAdd(2, 4, function(err, result) {
 * No globals (free variables)
 * No dependencies (yet!)
 * Function should take callback `f(err, result)` as its final argument
+
+## TODO
+* Process job creation request results
+* Logging

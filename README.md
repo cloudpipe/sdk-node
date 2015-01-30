@@ -36,4 +36,4 @@ cloudAdd(2, 4, function(err, result) {
 * Logging
 
 ## Testing
-See [Testing in the cloudpipe/runner-node repo](https://github.com/cloudpipe/runner-node#testing)
+See [the Usage section in the cloudpipe/runner-node repo](https://github.com/cloudpipe/runner-node#usage).

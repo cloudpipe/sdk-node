@@ -1,0 +1,24 @@
+{
+  "name": "cloudpipe",
+  "description": "A Node.js binding for CloudPipe",
+  "version": "0.0.1",
+  "author": "Shaunak Kashyap <shaunak.kashyap@rackspace.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudpipe/node-cloudpipe"
+  },
+  "keywords": [
+    "cloud",
+    "compute",
+    "remote",
+    "rpc"
+  ],
+  "main": "lib/index.js",
+  "dependencies": {
+    "node-serialize": "0.0.x",
+    "request": "2.x"
+  },
+  "engines": {
+    "node": ">=0.10.8"
+  }
+}

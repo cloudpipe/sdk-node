@@ -7,8 +7,8 @@ var cloudpipe = require('cloudpipe');
 // Initialize cloudpipe
 var pipe = cloudpipe.init({
   url: 'http://192.168.59.103:8000/api/v1',
-  key: 'admin',
-  secret: '12345'
+  username: 'admin',
+  apiKey: '12345'
 });
 
 // Define the function you want to run in ze cloud

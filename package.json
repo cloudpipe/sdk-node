@@ -5,7 +5,7 @@
   "author": "Shaunak Kashyap <ycombinator@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cloudpipe/node-cloudpipe"
+    "url": "https://github.com/cloudpipe/sdk-node"
   },
   "keywords": [
     "cloud",

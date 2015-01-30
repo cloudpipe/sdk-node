@@ -1,4 +1,4 @@
-**WARNING: This API and its implementation are in alpha.**
+*WARNING: This API and its implementation are in alpha.*
 
 ## API
 

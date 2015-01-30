@@ -34,3 +34,6 @@ cloudAdd(2, 4, function(err, result) {
 ## TODO
 * Process job creation request results
 * Logging
+
+## Testing
+See [Testing in the cloudpipe/runner-node repo](https://github.com/cloudpipe/runner-node#testing)

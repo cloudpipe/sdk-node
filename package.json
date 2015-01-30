@@ -2,7 +2,7 @@
   "name": "cloudpipe",
   "description": "A Node.js binding for CloudPipe",
   "version": "0.0.1",
-  "author": "Shaunak Kashyap <shaunak.kashyap@rackspace.com>",
+  "author": "Shaunak Kashyap <ycombinator@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/cloudpipe/node-cloudpipe"

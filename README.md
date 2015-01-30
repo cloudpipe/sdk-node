@@ -1,5 +1,5 @@
-## API
-*WARNING: This API and its implementation are in alpha.*
+## Getting Started: Basic Usage
+*WARNING: The Node.js API for CloudPipe and its implementation are in alpha.*
 
 ```javascript
 var cloudpipe = require('cloudpipe');
